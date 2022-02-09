@@ -508,10 +508,10 @@ main .services .container .services-grid .service .content {
 }
 
 main .contact {
-    background-color: #3d250023 ;
+    background-color: #eee ;
 }
 main .contact .container {
-    padding-top: 64px;
+    padding-top: 80px;
     padding-bottom: 64px;
 }
 
@@ -633,6 +633,78 @@ main .contact .container form .right-align {
     justify-content: center;
     align-items: center;
 }
+
+
+.promotion {
+    /* border: 2px solid red; */
+    padding: 50px;
+    background-color: #3d250023;
+    line-height: 3rem;
+}
+
+.promotion-container {
+    /* border: 2px solid red; */
+    max-width: 60%; 
+    margin: 0 auto;
+}
+
+.promotion-image-container {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.promotion-image-container-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.promotion-image-container img {
+    object-fit: cover;
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+    border: 3px solid #fff;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+@media (max-width: 767px) {
+    .promotion-image-container img {
+        max-width: 400px;
+        min-width: 250px;
+    }
+}
+
+
+@media (max-width: 967px) {
+    .promotion-container {
+        max-width: 85%; 
+    }
+}
+
+
+@media (max-width: 767px) {
+    .promotion-container {
+        max-width: 95%; 
+    }
+}
+
+#drink-image-container {
+    /* border: 2px solid red; */
+}
+
+#drink-image-container img {
+    object-fit: cover;
+}
+
+
 
 
 /*# sourceMappingURL=main.css.map */

@@ -701,10 +701,13 @@ main .contact .container form .right-align {
 
 .place-content {
     /* border: 1px solid red; */
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    max-width: 70%;
 }
 
 .place-img {
@@ -722,6 +725,10 @@ main .contact .container form .right-align {
 @media (max-width: 767px) {
     .place-img {
         max-width: 90%;
+    }
+
+    .place-content {
+        max-width: 100%;
     }
 }
 
